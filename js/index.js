@@ -44,7 +44,7 @@ function initmap(){
 	function onLocationError(e) {
 		alert(e.message); // On explique que l'erreur au visiteur
 	}
-	map.locate({watch: true, setView: true, maxZoom: 14}); // On demande de géolocalisé, en continu, avec un zoom de 14 sur notre position
+	map.locate({setView: true, maxZoom: 14}); // On demande de géolocalisé, en continu, avec un zoom de 14 sur notre position
 
 	map.attributionControl.setPrefix(''); // On enlève le crédit vers leaflet
 	map.addLayer(MRI); // On ajoute le calque MRI à la carte
