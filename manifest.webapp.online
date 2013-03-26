@@ -11,14 +11,5 @@
     "name": "WRI team",
     "url": "http://www.refuges.info"
   },
-  "fullscreen": "true",
-  "permissions": {
-    "systemXHR": {
-      "description": "Requis pour télécharger les données en provenance de www.refuges.info"
-    },
-    "geolocation": {
-      "description": "Requis pour afficher la carte"
-    }
-  },
-  "type": "privileged"
+  "fullscreen": "true"
 }

@@ -14,4 +14,4 @@ Voici une liste des modifications effectuées quand on héberge cette applicatio
 
  * Dans /js/index.js, enlever tous les liens absolu et mettre des liens relatifs vers ../
  * Un .htaccess ajoute le bon content-type
- * Enfever les lignes de privilège dans le manifest.webapp
+ * Renomer manifest.webapp.online en manifest.webapp
