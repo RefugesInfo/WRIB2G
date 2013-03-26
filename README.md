@@ -12,6 +12,8 @@ Cette application utilise des requêtes AJAX entre hôtes (ce qui est bloqué pa
 
 Voici une liste des modifications effectuées quand on héberge cette application sur le serveur de WRI :
 
- * Dans /js/index.js, enlever tous les liens absolu et mettre des liens relatifs vers ../
- * Un .htaccess ajoute le bon content-type
- * Renomer manifest.webapp.online en manifest.webapp
+ * Renommer `js/index.js.online` en `js/index.js`
+ * Renommer `online.htaccess` en `.htaccess`
+ * Renommer `manifest.webapp.online` en `manifest.webapp`
+
+*Le dossier dans lequel doit se trouver l'application doit être http://HOST/mobile/ ou il faut changer le `manifest.webapp`*
