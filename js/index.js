@@ -126,7 +126,7 @@ function affichePoint(idpoint) {
 	displayBlock('patientez');
 
 	// On prépare l'adresse à télécharger, avec l'id du point.
-	var msg='http://leo.refuges.info/point.php/' + idpoint + '/?format=geojson';
+	var msg='http://leo.refuges.info/point/' + idpoint + '/?format=geojson';
 
 	// Requete AJAX
 	ajaxRequest.onreadystatechange = pointRecu; // Si on a récupéré le fichier, on apelle pointRecu();
