@@ -15,6 +15,9 @@ var plotlist;
 var plotlayers=[];
 var init = 0;
 
+//Les tests effectués en permanence dès le chargement de la page
+document.querySelector('#affichecarte').addEventListener("click", function(){displayBlock('carte')});
+document.querySelector('#afficheindex').addEventListener("click", function(){displayBlock('index')});
 
 // Fonction lancée dès que le <div> map est chargé
 function initmap(){
