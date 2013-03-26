@@ -6,7 +6,7 @@ Cette application utilise des requêtes AJAX entre hôtes (ce qui est bloqué pa
 
  * Utiliser la version hébergée sur le serveur [refuges.info/mobile](http://leo.refuges.info/mobile/)
  * Sur Firefox, installez [ForceCORS](https://addons.mozilla.org/fr/firefox/addon/forcecors) et activez-le (dans la barre des modules), puis [téléchargez l'application](https://github.com/OpenSourceWay/WRIB2G/archive/master.zip), décompressez le dossier et ouvrez index.html avec Firefox.
- * Sur Firefox, Firefox OS, Tablettes ou smartphones android, assurez-vous d'avoir installé la version officielle **prochainement** disponible dans [MarketPlace](https://github.com/OpenSourceWay/WRIB2G/archive/master.zip)
+ * Sur Firefox, Firefox OS, Tablettes ou smartphones android, assurez-vous d'avoir installé la version officielle **prochainement** disponible dans [MarketPlace](https://marketplace.firefox.com/app/refuges/)
 
 ### Modifications faites pour héberger cette application sur refuges.info
 
