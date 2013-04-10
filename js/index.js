@@ -57,7 +57,7 @@ function askForPlots() {
 	var minll=bounds.getSouthWest();
 	var maxll=bounds.getNorthEast();
 	// On prépare l'adresse à télécharger, avec la bbox.
-	var msg='http://leo.refuges.info/exportations/exportations.php?format=geojson&bbox='+minll.lng+','+minll.lat+','+maxll.lng+','+maxll.lat;
+	var msg='http://www.refuges.info/exportations/exportations.php?format=geojson&bbox='+minll.lng+','+minll.lat+','+maxll.lng+','+maxll.lat;
 
 	// Requete AJAX
 	ajaxRequest.onreadystatechange = stateChanged; // Si on a récupéré le fichier, on apelle stateChanged();
@@ -116,7 +116,7 @@ function affichePoint(idpoint) {
 	displayBlock('patientez');
 
 	// On prépare l'adresse à télécharger, avec l'id du point.
-	var msg='http://leo.refuges.info/point-geojson/' + idpoint;
+	var msg='http://www.refuges.info/point-geojson/' + idpoint;
 
 	// Requete AJAX
 	ajaxRequest.onreadystatechange = pointRecu; // Si on a récupéré le fichier, on apelle pointRecu();
